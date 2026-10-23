@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amirmobash.github.io/CableMarker-Pro/sitemap.xml

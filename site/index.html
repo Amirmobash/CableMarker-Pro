@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CableMarker Pro – ESP32 Cable & Pipe Measuring and Marking System</title>
+<meta name="description" content="ESP32 laser-assisted cable and pipe measuring and marking system with servo marker, local web control and long-run workflows up to about 100 m with a suitable rangefinder.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://amirmobash.github.io/CableMarker-Pro/">
+<link rel="alternate" hreflang="en" href="https://amirmobash.github.io/CableMarker-Pro/">
+<link rel="alternate" hreflang="de" href="https://amirmobash.github.io/CableMarker-Pro/de/">
+<link rel="alternate" hreflang="x-default" href="https://amirmobash.github.io/CableMarker-Pro/">
+<link rel="icon" href="https://amirmobash.github.io/CableMarker-Pro/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://amirmobash.github.io/CableMarker-Pro/assets/styles.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CableMarker Pro – ESP32 Cable & Pipe Measuring and Marking System">
+<meta property="og:description" content="ESP32 laser-assisted cable and pipe measuring and marking system with servo marker, local web control and long-run workflows up to about 100 m with a suitable rangefinder.">
+<meta property="og:url" content="https://amirmobash.github.io/CableMarker-Pro/">
+<meta property="og:site_name" content="CableMarker Pro">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"CableMarker Pro","url":"https://amirmobash.github.io/CableMarker-Pro/","codeRepository":"https://github.com/Amirmobash/CableMarker-Pro","programmingLanguage":"C++","runtimePlatform":"ESP32","inLanguage":"en"}</script>
+</head>
+<body><nav class="nav"><div class="wrap"><a class="brand" href="https://amirmobash.github.io/CableMarker-Pro/">CableMarker Pro</a><div class="links"><a href="https://amirmobash.github.io/CableMarker-Pro/hardware/">Hardware</a><a href="https://amirmobash.github.io/CableMarker-Pro/long-range-workflow/">100 m workflow</a><a href="https://github.com/Amirmobash/CableMarker-Pro">GitHub</a><a class="lang" href="https://amirmobash.github.io/CableMarker-Pro/de/">DE</a></div></div></nav>
+<header class="hero"><div class="wrap"><span class="eyebrow">ESP32 · laser distance · servo marker</span><h1>Measure long cable or pipe runs. Mark the right position.</h1><p class="lead">CableMarker Pro is an ESP32 controller for laser-assisted distance measurement and physical marking. It is designed for workshop workflows that can extend to about 100 m when paired with a rangefinder rated for the job.</p><div class="actions"><a class="btn primary" href="https://github.com/Amirmobash/CableMarker-Pro">View source on GitHub</a><a class="btn secondary" href="https://amirmobash.github.io/CableMarker-Pro/long-range-workflow/">How the 100 m workflow works</a></div><div class="kpis"><div class="kpi"><b>ESP32</b>Standalone Wi-Fi control</div><div class="kpi"><b>UART</b>Laser rangefinder interface</div><div class="kpi"><b>Servo</b>Physical marker actuation</div></div></div></header>
+<main><section class="section"><div class="wrap"><h2>Built around a real marking workflow</h2><p>CableMarker Pro combines live distance measurement, a servo-driven marker, an external trigger and a local web dashboard. The firmware keeps the original project wiring but replaces long blocking operations with state-based control so the device remains responsive while marking.</p><div class="grid"><div class="card"><h3>Measure</h3><p>Read a UART laser sensor, validate its frame and apply the mechanical calibration offset.</p></div><div class="card"><h3>Mark</h3><p>Run one controlled servo marking cycle with cooldown protection and buzzer feedback.</p></div><div class="card"><h3>Operate locally</h3><p>Connect directly to the ESP32 access point. No cloud account or internet connection is required.</p></div></div></div></section>
+<section class="section"><div class="wrap"><div class="note"><strong>About the 100 m claim:</strong> the software supports 100,000 mm easily, but optical range and accuracy depend on the actual rangefinder, target surface, alignment and environment. CableMarker Pro does not turn a short-range sensor into a 100 m sensor.</div></div></section>
+<section class="section"><div class="wrap"><h2>Engineering details, not marketing filler</h2><p>The repository documents the ESP32 pinout, laser protocol assumptions, calibration method, servo power concerns, external trigger behavior, JSON API and troubleshooting steps in both English and German.</p><div class="actions"><a class="btn secondary" href="https://amirmobash.github.io/CableMarker-Pro/hardware/">Hardware & wiring</a><a class="btn secondary" href="https://github.com/Amirmobash/CableMarker-Pro/blob/main/docs/OPERATING_GUIDE.md">Operating guide</a></div></div></section></main><footer class="footer"><div class="wrap"><strong>CableMarker Pro</strong><br>ESP32 cable & pipe measuring and marking project.<br><a href="https://github.com/Amirmobash/CableMarker-Pro">github.com/Amirmobash/CableMarker-Pro</a></div></footer></body></html>

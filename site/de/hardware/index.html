@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CableMarker Pro Hardware – ESP32 Verdrahtung, Laser-UART und Servo</title>
+<meta name="description" content="Hardware-Referenz für CableMarker Pro: ESP32-Pinbelegung, UART-Lasersensor, Servo-Stromversorgung, Trigger und elektrische Integration.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://amirmobash.github.io/CableMarker-Pro/de/hardware/">
+<link rel="alternate" hreflang="en" href="https://amirmobash.github.io/CableMarker-Pro/hardware/">
+<link rel="alternate" hreflang="de" href="https://amirmobash.github.io/CableMarker-Pro/de/hardware/">
+<link rel="alternate" hreflang="x-default" href="https://amirmobash.github.io/CableMarker-Pro/hardware/">
+<link rel="icon" href="https://amirmobash.github.io/CableMarker-Pro/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://amirmobash.github.io/CableMarker-Pro/assets/styles.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CableMarker Pro Hardware – ESP32 Verdrahtung, Laser-UART und Servo">
+<meta property="og:description" content="Hardware-Referenz für CableMarker Pro: ESP32-Pinbelegung, UART-Lasersensor, Servo-Stromversorgung, Trigger und elektrische Integration.">
+<meta property="og:url" content="https://amirmobash.github.io/CableMarker-Pro/de/hardware/">
+<meta property="og:site_name" content="CableMarker Pro">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","name":"CableMarker Pro","url":"https://amirmobash.github.io/CableMarker-Pro/de/hardware/","codeRepository":"https://github.com/Amirmobash/CableMarker-Pro","programmingLanguage":"C++","runtimePlatform":"ESP32","inLanguage":"de"}</script>
+</head>
+<body><nav class="nav"><div class="wrap"><a class="brand" href="https://amirmobash.github.io/CableMarker-Pro/de/">CableMarker Pro</a><div class="links"><a href="https://amirmobash.github.io/CableMarker-Pro/de/hardware/">Hardware</a><a href="https://amirmobash.github.io/CableMarker-Pro/de/langstrecken-markierung/">100-m-Betrieb</a><a href="https://github.com/Amirmobash/CableMarker-Pro">GitHub</a><a class="lang" href="https://amirmobash.github.io/CableMarker-Pro/">EN</a></div></div></nav><main><header class="hero"><div class="wrap"><span class="eyebrow">Hardware-Referenz</span><h1>ESP32-Verdrahtung und Hardware-Annahmen</h1><p class="lead">Firmware v2 behält die GPIO-Belegung des vorhandenen CableMarker-Pro-Aufbaus bei und dokumentiert die elektrischen Voraussetzungen deutlich.</p></div></header><section class="section"><div class="wrap"><h2>Pinbelegung</h2><table><tr><th>Funktion</th><th>ESP32</th></tr><tr><td>Laser RX</td><td>GPIO 16</td></tr><tr><td>Laser TX</td><td>GPIO 17</td></tr><tr><td>Laser Enable</td><td>GPIO 5</td></tr><tr><td>Servo</td><td>GPIO 18</td></tr><tr><td>Summer</td><td>GPIO 27</td></tr><tr><td>Status-LED</td><td>GPIO 25</td></tr><tr><td>Trigger Out</td><td>GPIO 23</td></tr><tr><td>Trigger In</td><td>GPIO 19</td></tr></table><h2 style="margin-top:42px">Wichtige elektrische Prüfungen</h2><div class="grid"><div class="card"><h3>Laser-UART</h3><p>Das genaue alte Sensormodell ist nicht dokumentiert. Vor dem Anschluss Pegel und Schnittstellenart prüfen.</p></div><div class="card"><h3>Servo-Versorgung</h3><p>Ausreichende Stromreserve vorsehen. Eine zu schwache Versorgung kann den ESP32 beim Servo-Hub zurücksetzen.</p></div><div class="card"><h3>Trigger</h3><p>GPIO 19 arbeitet mit 3,3-V-Logik. 12/24-V-Signale benötigen Pegelwandlung oder galvanische Trennung.</p></div></div><p><a href="https://github.com/Amirmobash/CableMarker-Pro/blob/main/docs/HARDWARE.de.md">Vollständige Hardware-Dokumentation auf GitHub →</a></p></div></section></main><footer class="footer"><div class="wrap"><strong>CableMarker Pro</strong><br>ESP32 Mess- und Markierprojekt für Kabel und Rohre.<br><a href="https://github.com/Amirmobash/CableMarker-Pro">github.com/Amirmobash/CableMarker-Pro</a></div></footer></body></html>

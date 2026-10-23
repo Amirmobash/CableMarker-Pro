@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>100 m Cable & Pipe Marking Workflow – CableMarker Pro ESP32</title>
+<meta name="description" content="How CableMarker Pro supports long cable and pipe measuring and marking workflows up to about 100 m with a correctly rated laser rangefinder.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://amirmobash.github.io/CableMarker-Pro/long-range-workflow/">
+<link rel="alternate" hreflang="en" href="https://amirmobash.github.io/CableMarker-Pro/long-range-workflow/">
+<link rel="alternate" hreflang="de" href="https://amirmobash.github.io/CableMarker-Pro/de/langstrecken-markierung/">
+<link rel="alternate" hreflang="x-default" href="https://amirmobash.github.io/CableMarker-Pro/long-range-workflow/">
+<link rel="icon" href="https://amirmobash.github.io/CableMarker-Pro/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://amirmobash.github.io/CableMarker-Pro/assets/styles.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="100 m Cable & Pipe Marking Workflow – CableMarker Pro ESP32">
+<meta property="og:description" content="How CableMarker Pro supports long cable and pipe measuring and marking workflows up to about 100 m with a correctly rated laser rangefinder.">
+<meta property="og:url" content="https://amirmobash.github.io/CableMarker-Pro/long-range-workflow/">
+<meta property="og:site_name" content="CableMarker Pro">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","name":"CableMarker Pro","url":"https://amirmobash.github.io/CableMarker-Pro/long-range-workflow/","codeRepository":"https://github.com/Amirmobash/CableMarker-Pro","programmingLanguage":"C++","runtimePlatform":"ESP32","inLanguage":"en"}</script>
+</head>
+<body><nav class="nav"><div class="wrap"><a class="brand" href="https://amirmobash.github.io/CableMarker-Pro/">CableMarker Pro</a><div class="links"><a href="https://amirmobash.github.io/CableMarker-Pro/hardware/">Hardware</a><a href="https://amirmobash.github.io/CableMarker-Pro/long-range-workflow/">100 m workflow</a><a href="https://github.com/Amirmobash/CableMarker-Pro">GitHub</a><a class="lang" href="https://amirmobash.github.io/CableMarker-Pro/de/">DE</a></div></div></nav><main><header class="hero"><div class="wrap"><span class="eyebrow">Long-run workflow</span><h1>Cable and pipe marking over runs up to about 100 m</h1><p class="lead">The firmware is numerically ready for long runs. Whether 100 m works in practice is determined by the laser rangefinder and the measurement environment.</p></div></header><section class="section"><div class="wrap"><h2>What actually matters at long distance</h2><div class="grid"><div class="card"><h3>Sensor rating</h3><p>Use a rangefinder whose datasheet explicitly covers the required distance and target conditions.</p></div><div class="card"><h3>Target quality</h3><p>Reflectivity, incidence angle, ambient light and dust can reduce reliable range.</p></div><div class="card"><h3>Mechanical reference</h3><p>The optical origin and physical marking point must be calibrated together.</p></div></div><h2 style="margin-top:42px">Recommended validation</h2><ol><li>Verify UART electrical compatibility.</li><li>Test repeatability at short, medium and maximum distance.</li><li>Calibrate the mechanical offset.</li><li>Dry-run the marker before enabling physical contact.</li><li>Record the sensor model and calibration for the hardware revision.</li></ol><div class="note good"><strong>Software range:</strong> 100 m = 100,000 mm, which is comfortably inside the firmware's integer representation.</div><p><a href="https://github.com/Amirmobash/CableMarker-Pro/blob/main/docs/LONG_RANGE_WORKFLOW.md">Read the complete long-range guide →</a></p></div></section></main><footer class="footer"><div class="wrap"><strong>CableMarker Pro</strong><br>ESP32 cable & pipe measuring and marking project.<br><a href="https://github.com/Amirmobash/CableMarker-Pro">github.com/Amirmobash/CableMarker-Pro</a></div></footer></body></html>
