@@ -231,7 +231,7 @@ body{font-family:Arial,sans-serif;background:#0f0f0f;color:#fff;margin:0;padding
 </style></head><body>
 <div class="container">
 <div class="header">
-<h1>🎯 KabelMarker Pro</h1><p>igus Messsystem</p>
+<h1>🎯 KabelMarker Pro</h1><p>Amir Messsystem</p>
 </div>
 <div class="header">
 <div class="distance" id="distance">)rawliteral" + distHuman + R"rawliteral(</div>
